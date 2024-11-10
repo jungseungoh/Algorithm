@@ -1,5 +1,2 @@
 def solution(s):
-    if len(s) not in (4, 6):
-        return False
-    
-    return s.isdigit()
+    return len(s) in (4,6) and s.isdigit()
